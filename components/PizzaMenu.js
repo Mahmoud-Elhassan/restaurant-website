@@ -1,0 +1,72 @@
+const pizzaMenu = [
+    {
+        id: "1",
+        name: "Margherita",
+        ingredients: [
+            "Roma tomatoes",
+            "Mozzarella",
+            "Fresh chopped basil",
+            "Crushed garlic",
+            "Olive oil",
+            "Parmesan and Romano cheese",
+        ],
+        price: 15,
+        img: "/images/margherita.jpg",
+    },
+    {
+        id: "2",
+        name: "The big cheesy",
+        ingredients: [
+            "Mozzarella",
+            "Parmesan",
+            "Pecorino Romano",
+            "Cheddar",
+            "Gouda",
+            "Smoked mozzarella",
+        ],
+        price: 17,
+        img: "/images/cheese.jpg",
+    },
+    {
+        id: "3",
+        name: "The veggie",
+        ingredients: [
+            "Black olives",
+            "Onions",
+            "Fresh mushrooms",
+            "Mixed bell peppers",
+            "Roma tomatoes",
+            "Spinach",
+            "Mozzarella",
+            "Parmesan and Romano cheese",
+        ],
+        price: 13,
+        img: "/images/veggie.jpg",
+    },
+    {
+        id: "4",
+        name: "Taco chicken",
+        ingredients: [
+            "Chease mix",
+            "Chicken",
+            "Green bell peppers",
+            "olives",
+            "Onions",
+            "Tomatoes",
+            "Crushed nachos",
+            "Cheddar cheese swirl",
+            "Jalapeno",
+        ],
+        price: 17,
+        img: "/images/taco.jpg",
+    },
+    {
+        id: "5",
+        name: "Ranch chicken",
+        ingredients: ["Ranch sause", "Grilled chicken", "Ranch swirl"],
+        price: 15,
+        img: "/images/ranch.jpg",
+    },
+];
+
+export default pizzaMenu;

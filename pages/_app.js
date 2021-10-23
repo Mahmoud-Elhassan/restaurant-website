@@ -1,7 +1,17 @@
-import '../styles/globals.css'
+import Layout from "../components/Layout";
+import "../styles/globals.scss";
+import { CartProvider } from "react-use-cart";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+    return (
+        <>
+            <CartProvider>
+                <Layout>
+                    <Component {...pageProps} />
+                </Layout>
+            </CartProvider>
+        </>
+    );
 }
 
-export default MyApp
+export default MyApp;
